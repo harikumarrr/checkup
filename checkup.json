@@ -1,0 +1,19 @@
+{
+  "checkers": [
+    {
+      "type": "http",
+      "endpoint_name": "Example HTTP",
+      "endpoint_url": "http://www.example.com",
+      "tags": {
+        "env":"DEVELOPMENT",
+        "owner":"emp1"
+      }
+    }
+  ],
+  "storage" : {
+    "type": "fs",
+    "dir": "storage/fs"
+  },
+  "notifiers": [
+  ]
+}
